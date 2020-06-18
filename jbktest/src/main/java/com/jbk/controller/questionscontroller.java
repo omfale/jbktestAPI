@@ -12,7 +12,7 @@ public class questionscontroller
 	public Question getQuestions()
 	{
 		
-		Question question = new Question();
+		Question question = new Question();//this is practice code
 		question.setQuesstionText("is java platform independent...??");
 		question.setOption1("yes");
 		question.setOption2("NO");
